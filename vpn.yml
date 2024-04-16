@@ -1,0 +1,7 @@
+---
+- name: Executar script Python para criar VPN
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Executar script Python
+      command: python3 /dump/vpn.py
